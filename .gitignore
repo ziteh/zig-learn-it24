@@ -1,0 +1,11 @@
+# Source: https://github.com/ziglang/zig/blob/master/.gitignore
+# andrewrk
+
+.zig-cache/
+zig-cache/
+zig-out/
+/release/
+/debug/
+/build/
+/build-*/
+/docgen_tmp/
