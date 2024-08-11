@@ -30,3 +30,8 @@ Value: 3
 length: 4
 Type: []const u8
 ```
+
+```bash
+$ zig run string.zig
+Type: *const [11:0]u8, Length: 11
+```
