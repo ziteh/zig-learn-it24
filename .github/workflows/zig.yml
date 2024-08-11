@@ -6,17 +6,21 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Install Zig
         run: |
           wget https://ziglang.org/download/0.13.0/zig-linux-x86_64-0.13.0.tar.xz
           tar -xf zig-linux-x86_64-0.13.0.tar.xz
           echo "$(pwd)/zig-linux-x86_64-0.13.0" >> $GITHUB_PATH
-      
+
       - name: Verify Zig Installation
         run: zig version
-        
+
+      - name: Run Zig
+        run: |
+          chmod +x run_all.sh
+          ./run_all.sh
