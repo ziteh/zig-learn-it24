@@ -1,4 +1,4 @@
-# While
+# While Loop
 
 ```bash
 $ zig run basic.zig
