@@ -4,5 +4,7 @@
 
 這是我參加 2024 iThome 鐵人賽的文章：[Zig 語言入門指南——聽説你是現代化的 C](https://ithelp.ithome.com.tw/users/20151756/ironman/7460) 的程式碼庫。該系列文也同時發佈在我的 Blog：[Zig 入門指南（鐵人 24）](https://ziteh.github.io/categories/Zig-%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97%EF%BC%88%E9%90%B5%E4%BA%BA-24%EF%BC%89/)
 
+可查看 [Action: Run Zig](https://github.com/ziteh/zig-learn-it24/actions/workflows/zig.yml)，瞭解這些程式會輸出什麼樣的結果。
+
 > [!NOTE]  
 > Zig version: `0.13.0`
