@@ -5,10 +5,15 @@ for dir in */; do
 
     cd "$dir" || continue
 
-    for file in *.zig; do
-        echo -e "\n\nRun: $file"
-        zig run "$file"
-    done
+    if [[ -f "build.zig" ]]; then
+        echo -e "\n\nFound build.zig, running: zig build run"
+        zig build run
+    else
+        for file in *.zig; do
+            echo -e "\n\nRun: $file"
+            zig run "$file"
+        done
+    fi
 
     cd ..
 done
