@@ -17,3 +17,8 @@ Value: 2
 Value: 3
 Break
 ```
+
+```bash
+$ zig run block.zig
+Running in Production mode
+```
